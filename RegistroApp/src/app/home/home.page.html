@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      RegistrAPP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">RegistrAPP</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="centro"
+  >
+
+    <strong>Bienvenido </strong>
+    
+  </div>
+  <ion-item>
+    <ion-input label="Email" type="email" placeholder="Ingresa tu correo"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Contraseña" type="password" value=""></ion-input>
+  </ion-item>
+  <ion-button>Ingresar</ion-button>
+  <ion-button [routerLink]="['/recuperar']">Recuperar contraseña</ion-button>
+</ion-content>
